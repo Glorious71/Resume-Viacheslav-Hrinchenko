@@ -52,13 +52,18 @@ li {
   color: #595959;
 }
 
+.phone, .email, .chat {
+  width: 10px;
+  padding-right: 5px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 40px;
+  /*padding: 40px;*/
   top: 40px;
   background: #ffffff;
 
