@@ -118,7 +118,7 @@ li {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
-  background-color: #e0ebfe;
+  background-color: rgb(224, 253, 217);
 }
 /* ширина блоков .col__article и .col__aside по умолчанию */
 .col__article {
@@ -156,8 +156,8 @@ li {
     /*padding-right: 2vw;
     padding-left: 15px;*/
     max-width: 30.833333%;
-    min-width: 330px;
-    background-color: #e0ebfe;
+    min-width: 200px;
+    background-color:rgb(224, 253, 217);
   }
 }
 
@@ -166,7 +166,7 @@ li {
   -ms-flex: 0 0 1;
   flex: 0 0 1;
   width: 70%;
-  min-width: 300px;
+  min-width: 200px;
 }
 
 .col__footer {
