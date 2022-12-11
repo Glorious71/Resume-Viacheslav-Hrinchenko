@@ -52,9 +52,26 @@ li {
   color: #595959;
 }
 
+.tell-me {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #595959;
+}
+
 .phone, .email, .chat {
   width: 10px;
   padding-right: 5px;
+  padding-left: 20px;
+}
+
+@media (min-width: 992px) {
+  .phone, .email, .chat, {
+    width: 10px;
+    padding-right: 5px;
+    padding-left: 20px;
+  } 
 }
 
 .container {
