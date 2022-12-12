@@ -190,6 +190,7 @@ li {
   width: 100%;
   margin-top: 40px;
   /*height: 354px;*/
+  margin-bottom: 44px;
   left: 0px;
   top: 80px;
 
@@ -200,14 +201,7 @@ li {
   width: 100%;
 }
 
-.Contact {
-  /*position: absolute;
-    width: 191px;
-    height: 83px;*/
-  /*padding-left: 4vw;*/
-  left: 80px;
-  top: 485px;
-}
+
 
 .Contact,
 .Tech_Skills,
@@ -223,11 +217,22 @@ li {
   padding-left: 2vw;
 }
 
+.Contact {
+  /*position: absolute;
+    width: 191px;
+    height: 83px;*/
+  /*padding-left: 4vw;*/
+  margin-bottom: 44px;
+  left: 80px;
+  top: 485px;
+}
+
 .Tech_Skills {
   /*position: absolute;
     width: 121px;
     height: 203px;*/
   /*padding-left: 4vw;*/
+  margin-bottom: 44px;
   left: 80px;
   top: 615px;
 }
