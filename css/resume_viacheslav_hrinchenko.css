@@ -63,14 +63,14 @@ li {
 .phone, .email, .chat {
   width: 10px;
   padding-right: 5px;
-  padding-left: 20px;
+  /*padding-left: 20px;*/
 }
 
 @media (min-width: 992px) {
   .phone, .email, .chat, {
     width: 10px;
     padding-right: 5px;
-    padding-left: 20px;
+    /*padding-left: 20px;*/
   } 
 }
 
@@ -81,20 +81,10 @@ li {
   justify-content: center;
   width: 100%;
   /*padding: 40px;*/
+  left: 80px;
   top: 40px;
-  background: #ffffff;
-
-  /*max-width: 1200px;*/
-  /*padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;*/
+  background: #ffffff; 
 }
-/*@media screen and (min-width: 992px) {
-    .container {
-        flex-direction: column-reverse;
-    }
-}*/
 
 /* flex-контейнер */
 .row {
@@ -103,18 +93,10 @@ li {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  /*margin-right: -15px;
-    /*margin-left: -15px;*/
 }
 
-/* общие настройки для flex-элементов */
-/*.col {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-}*/
 .col__aside {
+  position: relative;
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
@@ -129,9 +111,6 @@ li {
   /*background-color: aqua; */
 }
 
-.col__article li {
-  padding-left: 3vw;
-}
 /* ширина блоков .col__article и .col__aside для больших экранов */
 @media (min-width: 992px) {
   /* 2/3 от ширины контейнера */
@@ -148,6 +127,7 @@ li {
 
   /* 1/3 от ширины контейнера */
   .col__aside {
+    position: relative;
     order: 1;
     -ms-flex: 0 0 30.833333%;
     flex: 0 0 23.833333%;
@@ -156,7 +136,7 @@ li {
     /*padding-right: 2vw;
     padding-left: 15px;*/
     max-width: 30.833333%;
-    min-width: 200px;
+    min-width: 380px;
     background-color:rgb(224, 253, 217);
   }
 }
@@ -175,16 +155,6 @@ li {
   min-width: 200px;
 }
 
-/*</style>*/
-
-/*.resume {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}*/
-
 .Portrait {
   /*position: absolute;*/
   width: 100%;
@@ -193,7 +163,6 @@ li {
   margin-bottom: 44px;
   left: 0px;
   top: 80px;
-
   /*background: #B1CCFF;*/
 }
 
@@ -201,95 +170,10 @@ li {
   width: 100%;
 }
 
-
-
 .Contact,
 .Tech_Skills,
-.Soft_Skills,
-h3 {
-  padding-left: 2vw;
-}
-
-.Contact,
-.Tech_Skills,
-.Soft_Skills,
-li {
-  padding-left: 2vw;
-}
-
-.Contact {
-  /*position: absolute;
-    width: 191px;
-    height: 83px;*/
-  /*padding-left: 4vw;*/
-  margin-bottom: 44px;
-  left: 80px;
-  top: 485px;
-}
-
-.Tech_Skills {
-  /*position: absolute;
-    width: 121px;
-    height: 203px;*/
-  /*padding-left: 4vw;*/
-  margin-bottom: 44px;
-  left: 80px;
-  top: 615px;
-}
-
 .Soft_Skills {
-  /*position: absolute;
-    width: 113px;
-    height: 131px;*/
-  /*padding-left: 4vw;*/
-  left: 80px;
-  top: 862px;
+  position: relative;
+  left: 40px;
+  margin-bottom: 44px;
 }
-
-/*.vacantion {
-    position: absolute;
-    width: 525px;
-    height: 206px;
-    left: 88px;
-    top: 142px;    
-}
-
-.projects {
-    position: absolute;
-    width: 525px;
-    height: 107px;
-    left: 88px;
-    top: 412px;    
-}
-
-.Freelance {
-    position: absolute;
-    width: 525px;
-    height: 213px;
-    left: 88px;
-    top: 570px;    
-}
-
-.Banderogusak {
-    position: absolute;
-    width: 525px;
-    height: 150px;
-    left: 88px;
-    top: 799px;
-}
-
-.BestUA {
-    position: absolute;
-    width: 525px;
-    height: 126px;
-    left: 88px;
-    top: 969px;    
-}
-
-.Education {
-    position: absolute;
-    width: 298px;
-    height: 114px;
-    left: 88px;
-    top: 1138px;
-}*/
